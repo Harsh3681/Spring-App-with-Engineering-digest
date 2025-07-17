@@ -1,18 +1,14 @@
-palllckage com.example.learner;
+package com.testingCompany.journalApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LearnerApplication {
+public class JournalApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(LearnerApplication.class, args);
-
-
-
-
+		SpringApplication.run(JournalApplication.class, args);
 	}
 
 }
